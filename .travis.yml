@@ -1,0 +1,15 @@
+language: ruby
+dist: trusty
+sudo: false
+rvm:
+  - 2.3.0
+install: bundle install
+script:
+  - bundle exec rubocop
+notifications:
+  email: false
+  slack:
+    on_success: change
+    on_failure: change
+    rooms:
+      - secure: h4iN3ridji6rHTKfu6S6icexNYoMY8EY1b/tVoG1+I3LWcEL7cYho/E3P62yn8orazHwsozoj4t5nIjqZ84M8k4aU96T85Mil2Tiz4Td9gAExU0WFj2576taGg5oYwkU7N6fiCB14uepQfQOn6uLaWd1Dfc2d/UqqqHJakOnotyJhzhk5gFvvqVLECzRFfEYmuN3cZYujAq3iGoi0BEy8QWUMSNVtKHHIfa4xYAu7G6LBmf2DJLMnNmfkBceqhxAsn0kRyEUT9Aw+OkdSnSfKYOM1tHkKaeYpRDs3bCTibB9SlzxxHorzbe75yA5VRe6SXKzIJ/ooNZ6r9uqu2+vrLKgdeYvxzDi1BBX6M+wqXYk0quRUk4tjT1O9rLh2MSEENP0cTd717hnMqmR1I8wwQJlQPsiQ0I7e9SpXhJfddb2U4bIGB9+yo+yemHNcqUcbqGGys2fAikyg0puZLkdWVUr0TgSB8GTqSOHsbvzlNOjoAkS5lEcHpV41gu97NeYZCaohfJnP/U5tYt7EF1JEWdq6eRFqYxVaTqpbQiE9kAGI0TPzktAojtrXKeWxLK+787AyEDU8eweajJl/hJg9QCKaUcljgf7nBjV+nDP6nwjFZ+pysU4eRQ1gRR6+H97aBhy1Y4ItNknlUSsD1FEYiAoZshDmEYZpk8d+49e5nE=
