@@ -3,9 +3,6 @@ machine:
     Europe/Istanbul
   ruby:
     version: "2.3"
-dependencies:
-  pre:
-    - gem update --system
 test:
   pre:
     - bundle exec rubocop --rails --display-cop-names
