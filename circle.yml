@@ -2,7 +2,7 @@ machine:
   timezone:
     Europe/Istanbul
   ruby:
-    version: "2.3"
+    version: "2.4"
 test:
   pre:
     - bundle exec rubocop --rails --display-cop-names
