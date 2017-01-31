@@ -1,6 +1,8 @@
 machine:
   timezone:
     Europe/Istanbul
+  ruby:
+    version: "2.3"
 test:
   pre:
     - bundle exec rubocop --rails --display-cop-names
