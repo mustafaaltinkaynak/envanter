@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  company: one
+  receipt_date: 2017-02-09
+  guarantee_end_date: 2017-02-09
+  location: MyString
+  features: MyText
+
+two:
+  title: MyString
+  company: two
+  receipt_date: 2017-02-09
+  guarantee_end_date: 2017-02-09
+  location: MyString
+  features: MyText

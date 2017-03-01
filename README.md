@@ -1,4 +1,5 @@
-Envanter Yönetimi
-=================
+# UZEM Envanter
 
-[![CircleCI](https://circleci.com/gh/19/envanter.svg)](https://circleci.com/gh/19/envanter)
+Adres: http://envanter.uzem.omu.edu.tr
+
+
